@@ -19,7 +19,7 @@ To write a program to find the LU Decomposition of a matrix.
 Program to find L and U matrix using LU decomposition.
 Developed by: RONIT SINHA
 RegisterNumber: 212225230286
-```
+
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
@@ -28,14 +28,14 @@ A = np.array(eval(input()))
 P,L,U=lu(A)
 print(L)
 print(U)
-
+```
 
 (ii) To find the LU Decomposition of a matrix
 ```
 Program to solve a matrix using LU decomposition.
 Developed by: RONIT SINHA
 RegisterNumber: 212225100040
-```
+
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 
@@ -47,7 +47,7 @@ b = np.array(eval(input()))
 lu, piv = lu_factor(A)
 X = lu_solve((lu , piv),b)
 print(X)
-
+```
 
 ## Output:
 
