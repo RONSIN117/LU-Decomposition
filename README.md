@@ -15,11 +15,11 @@ To write a program to find the LU Decomposition of a matrix.
 5. End the program
 ## Program:
 (i) To find the L and U matrix
-'''
+```
 Program to find L and U matrix using LU decomposition.
 Developed by: RONIT SINHA
 RegisterNumber: 212225230286
-'''
+```
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
@@ -31,13 +31,11 @@ print(U)
 
 
 (ii) To find the LU Decomposition of a matrix
-
-'''Program to solve a matrix using LU decomposition.
+```
+Program to solve a matrix using LU decomposition.
 Developed by: RONIT SINHA
 RegisterNumber: 212225100040
-'''
-
-# To print X matrix (solution to the equations)
+```
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 
